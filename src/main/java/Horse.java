@@ -10,6 +10,8 @@ public class Horse {
     private double distance;
     private static final Logger LOGGER = LoggerFactory.getLogger(Horse.class);
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(Horse.class);
+
     public Horse(String name, double speed, double distance) {
         if (isNull(name)) {
             LOGGER.error("Name is null");
